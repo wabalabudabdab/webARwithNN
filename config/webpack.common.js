@@ -60,7 +60,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'React-fiber integration demo',
       favicon: paths.static + '/favicon.png',
-      template: '/template.html', // template file
+      template: '/index.html', // template file
       filename: 'index.html', // output file
     }),
   ],
